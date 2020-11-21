@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickStart(View view) {
 
         if(!run) {
-            start_stop.setText("Stop";
+            start_stop.setText("Stop");
             run = true; //Значение изменяется на true, чтобы при повторном нажатии условие не выполнялось
 
             new Thread(new Runnable() {
